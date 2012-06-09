@@ -1,29 +1,40 @@
 %html
-  %head
-    %meta{"http-equiv" => "Content-Type",
-      :content => "text/html; charset=UTF-8",
-    }
-    %link{:rel => 'stylesheet',
-      :href => 'screen.css',
-      :type => 'text/css',
-    }
-  %body
+  
+  %head  
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8"}
+    %link{:rel => 'stylesheet', :href => 'screen.css', :type => 'text/css'}
+    
+  %body  
     .input_query
       %ul
-        %li.done ח
-        %li.done ח
-        %li.done ח
-        %li.active ח
+        %li.done א
+        %li.done ב
+        %li.done ג
+        %li.active ד
+        %li ה
+        %li ן
+        %li ז
         %li ח
-        %li ח
-        %li ח
-        %li ח
-        %li ח
-        %li ח
-        %li ח
-        %li ח
-        %li ח
-        %li ח
+        %li ט
+        %li י
+        %li כ
+        %li ך
+        %li ל
+        %li מ
+        %li ם
+        %li נ
+        %li ן
+        %li ס
+        %li ע
+        %li פ
+        %li ף
+        %li צ
+        %li ץ
+        %li ק
+        %li ר
+        %li ש
+        %li ת        
+        
     .hebrew_keyboard.keyboard
       %ul.top_line
         %li
@@ -75,7 +86,7 @@
           %em a
           %b ש
           %i шин
-        %li
+        %li.active
           %em s
           %b ד
           %i далет
@@ -95,7 +106,7 @@
           %em h
           %b י
           %i йуд
-        %li.starter.right_starter.active
+        %li.starter.right_starter
           %em j
           %b ח
           %i хет
@@ -134,7 +145,7 @@
         %li
           %em b
           %b נ
-          %i 
+          %i нун
         %li
           %em n
           %b מ
@@ -154,4 +165,4 @@
         %li
           %em /
           %b .
-          %i 
+          %i
