@@ -1,6 +1,36 @@
 body
   background: lightgray
 
+.input_query
+
+  margin-bottom: 50px
+
+  ul
+    list-style: none
+    overflow: hidden
+    clear: both
+    width: 95%
+    height: 100px
+    padding: 0 2%
+    border: 2px solid black
+    border-radius: 25px
+    color: black
+    background-color: white
+    font-size: 10px
+    
+    li
+      float: right
+      width: 50px
+      height: 100px
+      padding: 0 25px
+      font-size: 8em
+      border-radius: 25px
+      
+      &.active
+        background-color: yellow
+      &.done
+        color: lightgray
+  
 .keyboard
   ul
     list-style: none
