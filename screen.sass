@@ -1,0 +1,59 @@
+body
+  background: lightgray
+
+.keyboard
+  ul
+    list-style: none
+    clear: left
+    font-size: 10px
+    
+    &.middle_line
+      margin-left: 50px
+    
+    &.bottom_line
+      margin-left: 75px
+  
+    li
+      float: left
+      list-style: none
+      width: 80px      
+      height: 80px
+      padding: 10px
+      text-align: right
+      vertical-align: middle    
+      border: 2px solid black
+      border-radius: 20px
+      position: relative
+      overflow: hidden
+      background: white
+      color: black
+      
+      em  // latin letters
+        position: absolute
+        font-size: 6em
+        color: lightgray
+        font-weight: bold        
+        z-index: 100
+        left: 10px
+        top: 0px
+        
+      b   // hebrew letters
+        font-weight: bold
+        font-size: 8em
+        z-index: 200
+        
+      i   // russian hebrew letter names
+        position: absolute
+        top: 7px
+        right: 7px
+        display: block
+        z-index: 300
+        width: 100%
+        font-size: 1.4em
+        color: gray
+        width: 50%
+        
+      &.active, &:hover, &.hover
+        background-color: yellow
+      &:hover
+        cursor: pointer
