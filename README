@@ -1,0 +1,26 @@
+This is a simple hebrew blind-typing (and also aleph-bet learning) trainer. Not named yet.
+Originally created by Grigoriy Beziuk
+
+/*
+ * ----------------------------------------------------------------------------
+ * "THE VEGETARIAN-FOOD-WARE LICENSE" (Revision 1):
+ * Grigoriy Beziuk <gbezyuk@gmail.com> wrote this software. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can feed me with some tasty vegetarian food.
+ * ----------------------------------------------------------------------------
+ */
+
+
+Revision log:
+=============
+2012.06.08 - v0.1
+Occasionally started just to memorize the letter names, blind typing trainer prototype is ready.
+Features:
+- html/css-based hebrew keyboard with qwerty markers and cyrillic letter names
+- aleph-bet queue as a test one
+- next letter highlighting both in queue and on keyboard
+- a very little bit of jquery visual effects
+Known issues:
+- no settings or customization except for the hacking the source code
+- nothing happens when input queue ends
+- nothing happens when typo occurs
