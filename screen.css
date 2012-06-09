@@ -1,9 +1,9 @@
 body {
   background: lightgray; }
 
-.input_query {
+.input_queue {
   margin-bottom: 50px; }
-  .input_query ul {
+  .input_queue ul {
     list-style: none;
     overflow: hidden;
     clear: both;
@@ -15,16 +15,16 @@ body {
     color: black;
     background-color: white;
     font-size: 10px; }
-    .input_query ul li {
+    .input_queue ul li {
       float: right;
       width: 50px;
       height: 100px;
       padding: 0 25px;
       font-size: 8em;
       border-radius: 25px; }
-      .input_query ul li.active {
+      .input_queue ul li.active {
         background-color: yellow; }
-      .input_query ul li.done {
+      .input_queue ul li.done {
         color: lightgray; }
 
 .keyboard ul {
@@ -71,7 +71,12 @@ body {
       font-size: 1.4em;
       color: gray;
       width: 50%; }
-    .keyboard ul li.active, .keyboard ul li:hover, .keyboard ul li.hover {
+    .keyboard ul li.active {
       background-color: yellow; }
-    .keyboard ul li:hover {
-      cursor: pointer; }
+      .keyboard ul li.active i {
+        color: red; }
+    .keyboard ul li:hover, .keyboard ul li.hover {
+      cursor: pointer;
+      background-color: lightgray; }
+      .keyboard ul li:hover em, .keyboard ul li:hover i, .keyboard ul li.hover em, .keyboard ul li.hover i {
+        color: gray; }

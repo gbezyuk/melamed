@@ -1,7 +1,7 @@
 body
   background: lightgray
 
-.input_query
+.input_queue
 
   margin-bottom: 50px
 
@@ -83,7 +83,12 @@ body
         color: gray
         width: 50%
         
-      &.active, &:hover, &.hover
+      &.active
         background-color: yellow
-      &:hover
+        i
+          color: red
+      &:hover, &.hover
         cursor: pointer
+        background-color: lightgray
+        em, i
+          color: gray

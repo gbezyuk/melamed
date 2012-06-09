@@ -3,16 +3,18 @@
   %head  
     %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8"}
     %link{:rel => 'stylesheet', :href => 'screen.css', :type => 'text/css'}
+    %script{:type => 'text/javascript', :src => 'js/jquery.js'}
+    %script{:type => 'text/javascript', :src => 'js/layout.js'}
     
   %body  
-    .input_query
+    .input_queue
       %ul
-        %li.done א
-        %li.done ב
-        %li.done ג
-        %li.active ד
+        %li.active א
+        %li ב
+        %li ג
+        %li ד
         %li ה
-        %li ן
+        %li ו
         %li ז
         %li ח
         %li ט
@@ -51,7 +53,7 @@
           %em r
           %b ר
           %i рейш
-        %li
+        %li.active
           %em t
           %b א
           %i алеф
@@ -86,7 +88,7 @@
           %em a
           %b ש
           %i шин
-        %li.active
+        %li
           %em s
           %b ד
           %i далет
